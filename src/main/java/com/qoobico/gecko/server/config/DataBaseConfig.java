@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 @EnableJpaRepositories("com.qoobico.gecko.server.repository")
 @EnableTransactionManagement
 @PropertySource("classpath:db.properties")
-@ComponentScan("com.qoobico.gecko.server")
+
 
 public class DataBaseConfig {
 
